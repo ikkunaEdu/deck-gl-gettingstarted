@@ -16,6 +16,15 @@ const viewState = {
   bearing: 0
 };
 
+// Initial viewport settings
+const initialViewState = {
+    longitude: -122.41669,
+    latitude: 37.7853,
+    zoom: 13,
+    pitch: 0,
+    bearing: 0
+  };
+
 // Data to be used by the LineLayer
 const data = [{sourcePosition: [-122.41669, 37.7853], targetPosition: [-122.41669, 37.781]}];
 
